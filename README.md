@@ -1,1 +1,1 @@
-# Web-Tech-Exercises
+# Web-Tech-Lab-Exercises
