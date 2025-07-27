@@ -1,0 +1,130 @@
+/* Global styles */
+* {
+    margin: 0;
+}
+
+/* Styles for the body */
+body {
+    background: linear-gradient(to right, #3f9dad, #5cb3a7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+/* Styles for the paragraph tags */
+p {
+    font-size: 19px;
+}
+
+/* Styles for the sub heading h2 */
+h2 {
+    font-size: 28px;
+}
+
+/* Styles for the sub heading h3 */
+h3 {
+    font-size: 22px;
+}
+
+/* Styles for the unordered list and list items */
+ul {
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+ul li {
+    margin-bottom: 7px;
+}
+
+/* Header styles */
+.header {
+    background-color: rgba(136, 180, 209, 0.95);
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 20px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.header h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 7px;
+}
+
+.header a:hover {
+    color: #0d7377;
+    text-decoration: underline;
+}
+
+/* Styles for the main content */
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* styles for each section */
+section {
+    margin: 25px auto;
+    padding: 30px;
+    background-color: rgba(136, 180, 209, 0.9);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+section:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    border-bottom: 5px solid #5cb3a7;
+}
+
+/* Styles for the experience section */
+.job {
+    margin-bottom: 30px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for the projects section */
+.project {
+    margin-bottom: 25px;
+}
+
+/* Styles for the technical skills section */
+.skills-grid {
+    display: grid;
+    gap: 15px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

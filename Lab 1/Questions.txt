@@ -1,0 +1,3 @@
+1. Create a HTML and CSS webpage that captures a resume (preferrably yours) for a fresher full stack developer at an IT company. Decide on the subdivisions and content. Push your content to Github and maintain proper version control with clear Read me files. After completing your web page, host it on some free third party hosting site of your choice.
+
+2. Create a HTML and CSS webpage that captures a CV of a fresher (Preferrably yours). Decide on the subdivisions and content. Push your content to Github and maintain proper version control with clear Read me files. After completing your web page, host it on some free third party hosting site of your choice.

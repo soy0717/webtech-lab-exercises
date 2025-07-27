@@ -1,0 +1,80 @@
+/* style for the body */
+body {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #5cb3a7, #3f9dad);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+/* style for the main heading h1 */
+h1 {
+    text-align: center;
+}
+
+/* style for the sub heading h3 */
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+/* style for the sub heading h3 */
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* style for the horizontal line */
+hr {
+    max-width: 900px;
+}
+
+/* style for the paragraph */
+p {
+    margin: 0;
+}
+
+/* style for the sections */
+section {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 25px;
+    background-color: #88b4d1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+section:hover {
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* style for the anchor tag */
+a {
+    color: rgb(8, 83, 170);
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* style for the animation */
+section, hr {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease forwards;
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* style for the unordered lists */
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
