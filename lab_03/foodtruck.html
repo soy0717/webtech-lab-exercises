@@ -1,0 +1,82 @@
+<!-- HTML file for foodtruck registration form -->
+<!DOCTYPE html>
+<head>
+    <title>Food Truck Festival Registration</title>
+    <link rel="stylesheet" href="foodtruck.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container" id="form-container">
+            <!-- Heading -->
+            <h1>Join the Food Truck Festival!</h1>
+            <p>Register now to secure your spot at the ultimate street food experience</p>
+            
+            <form id="registration-form">
+                <h3>Personal Information</h3>
+                
+                <!-- First Name box -->
+                <div class="form-group">
+                    <label for="firstName">First Name *</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <!-- Last Name box -->
+                <div class="form-group">
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <!-- Email address box -->
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <!-- Phone number box -->
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <div class="phone-input">
+                        <span>+91</span>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+                    </div>
+                    <span class="error-message"></span>
+                </div>
+                
+                <!-- Age box -->
+                <div class="form-group">
+                    <label for="age">Age *</label>
+                    <input type="number" id="age" name="age" placeholder="Enter your age" min="18" max="100" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <!-- Food preference box -->
+                <div class="form-group">
+                    <label for="foodPreference">Food Preference *</label>
+                    <select id="foodPreference" name="foodPreference" required>
+                        <option value="">Select your preference</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="meat-lover">Meat Lover</option>
+                        <option value="seafood">Seafood</option>
+                        <option value="no-preference">No Preference</option>
+                    </select>
+                    <span class="error-message"></span>
+                </div>
+                
+                <button type="submit">Register Now</button>
+            </form>
+        </div>
+        
+        <div class="success-message" id="success-message">
+            <h2>Registration Successful!</h2>
+            <p>Welcome to the Food Truck Festival! Check your email for ticket details and event information.</p>
+            <button onclick="resetForm()">Register Another Person</button>
+        </div>
+    </div>
+    
+    <script src="foodtruck.js"></script>
+</body>
+</html>
