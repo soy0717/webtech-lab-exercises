@@ -1,0 +1,40 @@
+  body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .lists-page {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .lists-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .list-box {
+    border: 2px solid rgb(27, 197, 197);
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 200px;
+  }
+
+  .list-box h2 {
+    background-color: rgb(27, 197, 197);
+    padding: 8px;
+    margin-top: 0;
+    border-radius: 8px;
+  }
+
+  .list-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .list-box li {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
