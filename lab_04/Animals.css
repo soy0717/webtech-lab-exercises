@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.animals-page {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.animals-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
