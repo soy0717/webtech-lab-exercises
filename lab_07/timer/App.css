@@ -1,0 +1,83 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-setter, .buttons, .timer-display {
+  margin: 10px 0;
+}
+
+.time-inputs input {
+  width: 60px;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+  background: black;
+  color: white;
+  border: 1px solid #666;
+}
+
+.timer-display {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.buttons button {
+  padding: 12px 24px;
+  margin: 0 8px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.start-btn { background: green; }
+.stop-btn { background: red; }
+.reset-btn { background: blue; }
+
+.buttons button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #333;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.modal button {
+  background: blue;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}

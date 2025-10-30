@@ -1,0 +1,40 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(165, 207, 207);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(18, 61, 84);
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(18, 61, 84);
+}
+
+button {
+  padding: 15px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 7px;
+}
+
+button.increase {
+  background-color: rgb(29, 201, 20);
+}
+
+button.increase:hover {
+  background-color: rgb(24, 143, 17);
+}
+
+button.decrease {
+  background-color: rgb(226, 99, 99);
+}
+
+button.decrease:hover {
+  background-color: rgb(159, 69, 69);
+}
